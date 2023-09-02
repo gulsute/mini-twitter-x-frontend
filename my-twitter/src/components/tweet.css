@@ -1,0 +1,36 @@
+.tweet {
+  padding: 0.75rem 1rem;
+  font-size: 15px;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.name {
+  display: flex;
+  gap: 0.5rem;
+  align-items: baseline;
+}
+
+.name h3 {
+  margin: 0 0 0.2rem 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.name p {
+  font-size: 1.125rem;
+  opacity: 0.6;
+}
+
+.text p {
+  font-size: 1.125rem;
+}
+
+.avatar {
+  width: 3.75rem;
+  height: 3.75rem;
+  flex-shrink: 0;
+  border-radius: 3.75rem;
+  background: lightgray 50% / cover no-repeat;
+}

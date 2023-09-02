@@ -1,0 +1,36 @@
+mock-twitter 
+
+
+1- Ana Sayfa (/): feed akacak
+2- Kayıt Ol (/signup): kayıt formu
+3- Giriş Yap (/signin): giriş yapma formu
+4- Kullanıcı Profili (/profilename): kullanıcı bazında değişmeli
+
+eklentiler: axios,  tailwind, redux -> tamam
+toastify, private router, datefns eklenecek
+
+Anasayfa:
+  - tasarım ve oluşturma buradan başlayacak
+  - layout
+  - component: tweet tasarımı (maplenecek), you might like, trends, navbar, new tweet?
+  - giriş yapmayan girebilir
+
+Giriş Yap:
+  - giriş formu
+  - api ile bilgi gönderme ve çekme
+  - ls ile giriş yapıldığını anımsama
+  - giriş yapmayan girebilir
+
+Sign Up:
+  - kayıt formu
+  - terms and conditions olabilir?
+  - api ile gönderiş 
+  - historyden profil veya anasayfaya geçiş
+  - giriş yapmayan girebilir
+
+Profil Sayfası:
+  - layout anasayfa ile aynı
+  - component: tweet tasarımı (maplenecek), you might like, trends, navbar, new tweet?
+  - giriş yapmayan giremez
+  - bg image
+  - kişisel bilgiler
